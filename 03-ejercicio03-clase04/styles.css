@@ -1,0 +1,43 @@
+/*estilos generales*/
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*estilos header*/
+.header-nav{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.header-nav-info{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1200px;
+}
+.logo{
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    text-align: left;
+}
+li{
+    display: inline-block;
+    justify-content: left;
+}
+a{
+    text-decoration: none;
+    color: #444444;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+/*estilos lomasjugado*/
+.principal{
+    width: 100%;
+}
